@@ -1,36 +1,5 @@
 $(document).ready(function() {
   /*** Newsfeed ***/
-  $('.speciali-main').owlCarousel({
-   loop: true,
-   margin: 10,
-   items:3,
-   nav:false,
-   autoplay:true,
-   center: false,
-   dots:true,
-   navText: [  
-     '<i class="fa-solid fa-arrow-left"></i>',
-     '<i class="fa-solid fa-arrow-right"></i>'
- ],
-   responsive:{
-     0:{
-       items:1
-     },
-     600:{
-       items:1
-       // margin: 85,
-     },
-     768:{
-       items:2
-     },
-     1200:{
-       items:3
-     }
-   }
- });
-
-
-  /*** Newsfeed ***/
   $('.recruit-main').owlCarousel({
    loop: true,
    margin: 10,
