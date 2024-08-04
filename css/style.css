@@ -953,5 +953,8 @@ section.thank-pag.py-5 {
     .accred-main img {
         margin-right: 0px;
     }
+    .accred-inr p {
+        font-size: 18px;
+    }
 
 }
