@@ -174,9 +174,10 @@ section.header-sec {
 }
 
 .banner-left h1 span {
-    font-size: 80px;
+    font-size: 110px;
     color: #1756AF;
     font-weight: 600;
+    letter-spacing: 30px;
 }
 
 /* Accreditations Start */
@@ -201,7 +202,7 @@ section.header-sec {
 }
 
 .accred-inr p {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .accred-inr img {
@@ -643,7 +644,7 @@ section.thank-pag.py-5 {
     }
 
     .accred-inr p {
-        font-size: 23px;
+        font-size: 20px;
     }
 
     .mainsec1 {
@@ -667,7 +668,7 @@ section.thank-pag.py-5 {
     }
 
     .banner-form h3 {
-        font-size: 30px;
+        font-size: 25px;
     }
 }
 
@@ -787,6 +788,12 @@ section.thank-pag.py-5 {
         width: 100%;
         text-align: center;
     }
+    .banner-left h1 span {
+        font-size: 60px;
+        color: #1756AF;
+        font-weight: 600;
+        letter-spacing: normal;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -868,7 +875,7 @@ section.thank-pag.py-5 {
     }
 
     .accred-inr p {
-        font-size: 23px;
+        font-size: 25px;
         text-align: left;
     }
 
