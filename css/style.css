@@ -75,26 +75,36 @@ section {
     justify-content: space-between;
     text-align: center;
 }
-.header-sec img{
+
+.header-sec img {
     width: 45%;
 }
+
 .header-logo {
     width: 50%;
 }
+
 section.header-sec {
     position: fixed;
     background: #fff;
     z-index: 999;
 }
+
 .book-btn {
     width: 50%;
     text-align: center;
 }
+
 .banner-left h2 {
     font-weight: 500;
-    margin-bottom: 20px;
     font-size: 30px;
 }
+
+.banner-subcont h4 {
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
 .banner-subcont {
     background: #1756AF;
     color: #FBF009;
@@ -104,15 +114,18 @@ section.header-sec {
     text-align: center;
     box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important;
 }
+
 .mainsec1 {
     background-image: url(../image/banneer-lft.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     margin-top: 7rem;
 }
+
 .banner-left.col-lg-8 {
     width: 70%;
 }
+
 .banner-main {
     display: flex;
     flex-wrap: wrap;
@@ -126,21 +139,32 @@ section.header-sec {
     width: 100%;
 }
 
-.banner-form h2 {
+.banner-form h3 {
     text-align: center;
-    margin-bottom: 30px;
     color: #fff;
+    font-size: 35px;
 }
+
+.banner-form p {
+    text-align: center;
+    color: #fff;
+    margin: 10px 0 30px;
+    font-size: 25px;
+}
+
 .banner-form {
     background: #88888cbd;
     padding: 20px;
     border-radius: 8px;
     width: 25%;
 }
-.banner-form .col-12 input, .banner-form .col-12 select {
+
+.banner-form .col-12 input,
+.banner-form .col-12 select {
     border: 0px solid !important;
     border-radius: 5px !important;
 }
+
 .banner-left h1 {
     font-size: 50px;
     color: #000;
@@ -148,11 +172,13 @@ section.header-sec {
     font-weight: 600;
     width: 80%;
 }
+
 .banner-left h1 span {
     font-size: 80px;
     color: #1756AF;
     font-weight: 600;
 }
+
 /* Accreditations Start */
 .accred-main {
     text-align: center;
@@ -161,6 +187,7 @@ section.header-sec {
     align-items: center;
     justify-content: space-evenly;
 }
+
 .accred-inr {
     display: flex;
     align-items: center;
@@ -172,13 +199,16 @@ section.header-sec {
 .accred-inr:last-child {
     border-right: 0px solid #DADADA;
 }
+
 .accred-inr p {
     font-size: 30px;
 }
+
 .accred-inr img {
     width: 30%;
     padding: 10px;
 }
+
 /* about section */
 .about-cont .ryt-img img {
     width: 100%;
@@ -195,6 +225,7 @@ section.header-sec {
 .row.about-cont {
     width: 100%;
     margin: auto;
+    align-items: center;
 }
 
 /* Why to Choos Us? */
@@ -331,10 +362,12 @@ section.header-sec {
 .count-outer {
     margin-bottom: 4rem;
 }
+
 .count-outer h2#test span {
     font-size: 30px;
     margin-left: 20px;
 }
+
 /* mba specification */
 .course-img {
     text-align: center;
@@ -352,7 +385,8 @@ section.header-sec {
     text-align: center;
     margin: 30px 0;
 }
-.speciali-main .mba-courses:hover{
+
+.speciali-main .mba-courses:hover {
     box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important;
 }
 
@@ -492,33 +526,40 @@ section.Admission {
     background-color: #01BAFD;
     color: #fff;
 }
-section.footer-sec
-.footer-main.row {
+
+section.footer-sec .footer-main.row {
     align-items: center;
 }
+
 .footer-logo img {
     width: 50%;
     padding: 30px 0;
 }
+
 .footer-address h6 {
     font-size: 20px;
     margin-bottom: 30px;
 }
+
 .footer-address h4 {
     margin-bottom: 20px;
 }
+
 .footer-address p {
     font-size: 20px;
     margin-bottom: 10px;
 }
-.footer-address p a{
+
+.footer-address p a {
     font-size: 20px;
     color: #000;
 }
+
 .test-message {
     border-radius: 0;
     border: 1px solid;
 }
+
 /* popup  */
 .popup-select .col-12 input,
 .popup-select .col-12 select {
@@ -529,6 +570,7 @@ section.footer-sec
     border-radius: 0;
     color: #757575;
 }
+
 .book-constmain h3.text-center {
     text-align: center !important;
     margin: auto;
@@ -564,15 +606,19 @@ button.book-counslt {
     text-transform: uppercase;
     border: none;
     width: 100%;
+    border-radius: 8px;
 }
+
 .than-foot {
     position: fixed;
     bottom: 0;
 }
+
 h1.thak-title {
     padding-bottom: 3rem;
     position: relative;
 }
+
 h1.thak-title::before {
     position: absolute;
     border-bottom: 5px solid;
@@ -585,12 +631,15 @@ h1.thak-title::before {
     top: 0;
     margin: auto;
 }
+
 .than-foot p.copy-ryt {
     margin-bottom: 0;
 }
+
 section.thank-pag.py-5 {
     margin-bottom: 50px;
 }
+
 /* responsive */
 @media screen and (max-width: 2500px) {}
 
@@ -613,28 +662,37 @@ section.thank-pag.py-5 {
         justify-content: center;
         padding: 50px 0;
     }
+
     .accred-inr p {
         font-size: 23px;
     }
+
     .mainsec1 {
         background-size: 100% 100%;
     }
+
     .banner-left h1 {
         font-size: 40px;
     }
+
     .banner-form {
         width: 35%;
     }
+
     .banner-left.col-lg-8 {
         width: 65%;
     }
+
     .mba-courses h3 {
         font-size: 20px;
     }
+
+    .banner-form h3 {
+        font-size: 30px;
+    }
 }
 
-@media screen and (max-width: 1100px) {
-}
+@media screen and (max-width: 1100px) {}
 
 @media screen and (max-width: 990px) {
     .mba-courses h3 {
@@ -642,62 +700,80 @@ section.thank-pag.py-5 {
         margin-bottom: 30px;
         font-size: 22px;
     }
+
     .eligibl-cont ul {
         width: 100%;
         text-align: left;
     }
+
     .eligible-lft.col-lg-6 {
         margin-bottom: 30px;
     }
+
     .row.about-cont {
         width: 100%;
         margin: auto;
         flex-direction: column-reverse;
         gap: 30px;
     }
+
     .goal-section {
         position: relative;
         overflow: hidden;
         height: auto;
     }
+
     .row.clearfix.ml-5 {
         margin-left: 0 !important;
         margin-top: 8rem;
     }
+
     .count-outer {
         margin-bottom: 30px;
         width: 50%;
     }
+
     .service_item {
         height: 500px;
     }
+
     .admision-lft h4 {
-        font-size:30px;
+        font-size: 30px;
         color: #fff;
         margin-bottom: 30px;
     }
+
     .eligibl-cont h3 {
         text-align: center;
     }
+
     .accred-main {
         flex-wrap: wrap;
     }
+
     .accred-inr {
         width: 50%;
     }
+
     .footer-logo {
         text-align: center;
     }
+
     .admission-ryt img {
         width: 70%;
     }
-    .banner-form ,.banner-subcont ,.banner-left h1{
+
+    .banner-form,
+    .banner-subcont,
+    .banner-left h1 {
         width: 100%;
     }
+
     .banner-main {
         width: 80%;
         margin: auto;
     }
+
     .banner-left.col-lg-8 {
         width: 100%;
         margin-bottom: 50px;
@@ -709,19 +785,23 @@ section.thank-pag.py-5 {
     .header-sec img {
         width: 90%;
     }
+
     .choose-main .col-sm-6 {
         width: 100%;
     }
+
     .service_item {
         height: auto;
     }
-    
+
     .admiss-open {
         flex-wrap: wrap;
         padding-bottom: 0;
         gap: 40px;
     }
-    .admision-lft, .admission-ryt {
+
+    .admision-lft,
+    .admission-ryt {
         width: 100%;
         text-align: center;
     }
@@ -731,6 +811,7 @@ section.thank-pag.py-5 {
     .speciali-main .owl-nav button {
         display: none !important;
     }
+
     .speciali-main .mba-courses {
         width: 95%;
     }
@@ -743,20 +824,24 @@ section.thank-pag.py-5 {
     .speciali-main .owl-dots {
         display: block;
     }
+
     .mainsec1 {
         background-image: url(../image/mobile-banner.png);
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% 45%;
     }
-    .goal-section .images-column .image-two{
+
+    .goal-section .images-column .image-two {
         display: none;
     }
+
     .goal-section .images-column .image {
         position: relative;
         border-radius: 5px;
         overflow: hidden;
         transform: rotate(0deg);
     }
+
     .banner-main {
         display: flex;
         flex-wrap: wrap;
@@ -765,11 +850,13 @@ section.thank-pag.py-5 {
         width: 100%;
         padding: 10px 0;
     }
+
     .banner-left.col-lg-8 {
         width: 100%;
         margin-bottom: 50px;
         padding: 0;
     }
+
     button.book-counslt {
         bottom: 0;
         top: auto;
@@ -777,65 +864,87 @@ section.thank-pag.py-5 {
         width: 100%;
         border-radius: 0;
     }
+
     .footer-sec .copy-ryt {
         padding: 5px;
         text-align: center;
         font-size: 15px;
         margin-bottom: 45px;
     }
+
     .thank-left h4 {
         font-size: 18px;
     }
+
     .accred-inr {
         width: 100%;
         justify-content: left;
-        border-right:0px;
+        border-right: 0px;
     }
+
     .accred-inr p {
         font-size: 23px;
         text-align: left;
     }
+
     .footer-logo img {
         width: 90%;
         padding: 30px 0;
     }
+
+    .accredit-sec {
+        padding: 0 !important;
+    }
+    .speciali-sec{
+        padding-top: 0 !important;
+    }
+    
 }
 
 @media screen and (max-width: 500px) {
     h2 {
         font-size: 2rem;
         text-align: center;
-        font-weight: 500;
     }
+
     .count-outer {
         margin-bottom: 30px;
         width: 100%;
         text-align: center;
     }
+
     .count-outer h4 {
         font-size: 16px;
     }
+
     .eligibl-cont li {
         margin-bottom: 15px;
         font-size: 16px;
     }
-    .footer-address p a ,.footer-address p{
+
+    .footer-address p a,
+    .footer-address p {
         font-size: 16px;
     }
+
     .footer-address h6 {
         font-size: 18px;
     }
+
     .admision-lft h4 {
         font-size: 22px;
         color: #fff;
         margin-bottom: 30px;
     }
+
     .banner-left h1 {
         font-size: 30px;
     }
+
     .banner-subcont {
         padding: 20px;
     }
+
     .banner-left h2 {
         font-size: 23px;
     }
@@ -847,4 +956,9 @@ section.thank-pag.py-5 {
         margin-right: 0px;
     }
 
+}
+@media screen and (max-width: 400px) {
+.mainsec1 {
+    background-size: 100% 50%;
+}
 }
