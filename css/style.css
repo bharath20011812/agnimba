@@ -173,7 +173,7 @@ section.header-sec {
     width: 80%;
 }
 
-.banner-left h1 span {
+.banner-left h1 .mab-h1 {
     font-size: 110px;
     color: #1756AF;
     font-weight: 600;
@@ -211,6 +211,9 @@ section.header-sec {
 }
 
 /* about section */
+.lft-content li {
+    margin-bottom: 10px;
+}
 .about-cont .ryt-img img {
     width: 100%;
 }
@@ -762,6 +765,9 @@ section.thank-pag.py-5 {
     .mab-special .mba-courses {
         width: 48%;
     }
+    .mainsec1 {
+        background-size: 100% 48%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -788,7 +794,7 @@ section.thank-pag.py-5 {
         width: 100%;
         text-align: center;
     }
-    .banner-left h1 span {
+    .banner-left h1 .mab-h1 {
         font-size: 60px;
         color: #1756AF;
         font-weight: 600;
@@ -814,11 +820,6 @@ section.thank-pag.py-5 {
         display: block;
     }
 
-    .mainsec1 {
-        background-image: url(../image/mobile-banner.png);
-        background-repeat: no-repeat;
-        background-size: 100% 45%;
-    }
 
     .goal-section .images-column .image-two {
         display: none;
@@ -842,7 +843,7 @@ section.thank-pag.py-5 {
 
     .banner-left.col-lg-8 {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 80px;
         padding: 0;
     }
 
@@ -890,7 +891,10 @@ section.thank-pag.py-5 {
     .speciali-sec{
         padding-top: 0 !important;
     }
-    
+    span.master-h1 {
+        position: relative;
+        top: 20px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -935,7 +939,9 @@ section.thank-pag.py-5 {
 
     .banner-subcont {
         padding: 20px;
+        margin-top: 60px;
     }
+
 
     .banner-left h2 {
         font-size: 23px;
@@ -948,9 +954,4 @@ section.thank-pag.py-5 {
         margin-right: 0px;
     }
 
-}
-@media screen and (max-width: 400px) {
-.mainsec1 {
-    background-size: 100% 50%;
-}
 }
