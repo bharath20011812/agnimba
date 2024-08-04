@@ -373,9 +373,8 @@ section.header-sec {
     text-align: center;
     margin-bottom: 20px;
 }
-
-.course-img img {
-    width: 100%;
+.mab-special .mba-courses {
+    text-align: center;
 }
 
 .speciali-main .mba-courses {
@@ -385,40 +384,19 @@ section.header-sec {
     text-align: center;
     margin: 30px 0;
 }
-
-.speciali-main .mba-courses:hover {
+.mab-special .mba-courses {
+    text-align: center;
+    padding: 30px;
     box-shadow: 0px 15px 39px 0px rgba(8, 18, 109, 0.1) !important;
+    border-radius: 8px;
+    width: 31%;
 }
-
-.speciali-main .owl-nav button {
-    position: absolute;
-    top: 50%;
+.course-img img {
+    width: 100%;
 }
-
-.speciali-main .owl-stage-outer {
-    width: 95%;
-    margin: auto;
-}
-
-.speciali-main .owl-nav button i {
-    position: absolute;
-    top: 50%;
-    background: #01BAFD;
-    color: #fff;
-    padding: 10px;
-    border-radius: 30px;
-}
-
-.speciali-main .owl-dots {
-    display: none;
-}
-
-.speciali-main .owl-nav .owl-prev {
-    left: -2%;
-}
-
-.speciali-main .owl-nav .owl-next {
-    right: 0%;
+.mab-special.row {
+    gap: 20px;
+    justify-content: center;
 }
 
 .mba-courses a {
@@ -779,6 +757,9 @@ section.thank-pag.py-5 {
         margin-bottom: 50px;
         padding: 0;
     }
+    .mab-special .mba-courses {
+        width: 48%;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -864,7 +845,10 @@ section.thank-pag.py-5 {
         width: 100%;
         border-radius: 0;
     }
-
+    .mab-special .mba-courses {
+        width: 98%;
+        margin: auto;
+    }
     .footer-sec .copy-ryt {
         padding: 5px;
         text-align: center;
