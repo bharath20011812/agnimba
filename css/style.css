@@ -261,11 +261,9 @@ section.header-sec {
     overflow: hidden;
 }
 
-.count-outer:last-child h2{
-    margin-top: 30px;
-}
-.count-outer:nth-child(2) h2{
-   font-size: 25px !important;
+.count-outer:nth-child(2) h2 {
+   font-size: 20px !important;
+   margin-bottom: 30px;
 }
 .goal-section .images-column {
     position: relative;
@@ -305,7 +303,7 @@ section.header-sec {
 .count-outer h2#test {
     font-weight: 800;
     color: #06092d;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1em;
     text-transform: uppercase;
 }
@@ -332,7 +330,9 @@ section.header-sec {
     font-size: 25px;
     margin-left: 20px;
 }
-
+.count-outer:last-child{
+    text-align: center;
+}
 /* mba specification */
 .course-img {
     text-align: center;
@@ -583,8 +583,15 @@ h1.thak-title::before {
 
 section.thank-pag.py-5 {
     margin-bottom: 50px;
+    margin-top: 7rem;
+}
+.thank-foot{
+    border-top:1px solid #000;
 }
 
+.thank-foot.footer-sec .copy-ryt{
+    margin-bottom: 0;
+}
 /* responsive */
 @media screen and (max-width: 2500px) {}
 
@@ -604,6 +611,10 @@ section.thank-pag.py-5 {
         color: #06092d;
         font-size: 20px;
     }
+    .count-outer h2#test {
+        font-size: 30px;
+    }
+    
 }
 
 @media screen and (max-width: 1200px) {
@@ -612,6 +623,9 @@ section.thank-pag.py-5 {
         display: flex;
         justify-content: center;
         padding: 50px 0;
+    }
+    .count-outer h2#test {
+        font-size: 25px;
     }
 
     .mainsec1 {
@@ -675,9 +689,6 @@ section.thank-pag.py-5 {
         overflow: hidden;
         height: auto;
     }
-    .count-outer:nth-child(2) h2{
-        font-size: 30px !important;
-     }
     .row.clearfix.ml-5 {
         margin-left: 0 !important;
     }
@@ -742,6 +753,9 @@ section.thank-pag.py-5 {
         width: 47%;
         border: 0;
     }
+    .count-outer:nth-child(2) h2 {
+        margin-bottom: 0px;
+     }
 }
 
 @media screen and (max-width: 768px) {
