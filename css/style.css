@@ -196,15 +196,16 @@ section.header-sec {
 }
 
 .accred-inr p {
-    font-weight: 600;
+    font-weight: 500;
     margin-top: 5px;
+    font-size: 25px;
 }
 
 .accred-inr img {
-    width: 55%;
+    width: 35%;
     padding: 10px;
-    height: 135px;
 }
+
 /* about section */
 .accredit-sec h2 {
     width: 80%;
@@ -748,9 +749,6 @@ section.thank-pag.py-5 {
     .mainsec1 {
         background-size: 100% 48%;
     }
-    .accred-inr img {
-        width: 35%;
-    }
     .accred-inr {
         width: 47%;
         border: 0;
@@ -871,9 +869,6 @@ section.thank-pag.py-5 {
         padding: 30px 0;
     }
 
-    .accredit-sec {
-        padding: 0 !important;
-    }
     .speciali-sec{
         padding-top: 0 !important;
     }
