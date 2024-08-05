@@ -178,7 +178,9 @@ section.header-sec {
     font-weight: 600;
     letter-spacing: 30px;
 }
-
+.nirf-img p{
+    font-size: 28px;
+}
 /* Accreditations Start */
 .accred-main {
     text-align: center;
@@ -202,9 +204,6 @@ section.header-sec {
     width: 55%;
     padding: 10px;
     height: 135px;
-}
-.nirf-img img {
-    width: 100%;
 }
 /* about section */
 .accredit-sec h2 {
@@ -623,6 +622,9 @@ section.thank-pag.py-5 {
         display: flex;
         justify-content: center;
         padding: 50px 0;
+    }
+    .nirf-img p {
+        font-size: 20px;
     }
     .count-outer h2#test {
         font-size: 25px;
