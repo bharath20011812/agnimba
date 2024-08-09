@@ -101,10 +101,19 @@ section.header-sec {
 }
 
 .banner-subcont h4 {
-    margin-bottom: 20px;
     font-weight: 500;
+    background: #FEF3E1;
+    padding: 10px 10px 15px;
+    text-transform: capitalize;
+    margin: auto auto 30px;
+    color: #000;
+    border-radius: 8px;
 }
-
+.banner-subcont h4 span {
+    color: #F64913;
+    font-weight: 900;
+    font-size: 38px;
+}
 .banner-subcont {
     background: #1756AF;
     color: #FBF009;
@@ -477,7 +486,7 @@ section.footer-sec .footer-main.row {
 }
 
 .footer-logo img {
-    width: 50%;
+    width: 65%;
     padding: 30px 0;
 }
 
@@ -566,7 +575,7 @@ h1.thak-title {
 
 h1.thak-title::before {
     position: absolute;
-    border-bottom: 5px solid;
+    border-bottom: 5px solid #F84F0D;
     content: '';
     width: 33px;
     height: 27px;
@@ -586,7 +595,7 @@ section.thank-pag.py-5 {
     margin-top: 7rem;
 }
 .thank-foot{
-    border-top:1px solid #000;
+    border-top:1px solid #cecece;
 }
 
 .thank-foot.footer-sec .copy-ryt{
@@ -932,6 +941,12 @@ section.thank-pag.py-5 {
 
     .banner-left h2 {
         font-size: 23px;
+    }
+    .banner-subcont h4 {
+        font-size: 20px;
+    }
+    .banner-subcont h4 span {
+        font-size: 25px;
     }
 
 }
